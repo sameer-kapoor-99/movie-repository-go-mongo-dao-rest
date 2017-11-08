@@ -2,10 +2,9 @@ package interfaces
 
 import models "../../models"
 
+// Interface for all DAO methods
 type UserDao interface {
 	AddMovie(m models.Movie) error
-	/*Update(u *models.User) error
-	Delete(i int) error*/
 	GetByTitle(t string) (*models.Movie, error)
 	GetById(i string) (*models.Movie,error)
 	UpdateMovie(m models.Movie) error

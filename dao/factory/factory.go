@@ -5,7 +5,7 @@ import (
 	"../mongodb"
 	"log"
 )
-
+// FactoryDao returns a DAO object
 func FactoryDao(e string) interfaces.UserDao {
 	var i interfaces.UserDao
 	switch e {

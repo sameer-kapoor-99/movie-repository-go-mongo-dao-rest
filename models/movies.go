@@ -1,5 +1,6 @@
 package models
 
+// Movie Database fields
 type Movie struct {
 	ID string `json:"id" bson:"_id,omitempty"`
 	ImdbId string `json:"imdbid" bson:"_imdbid,omitempty"`

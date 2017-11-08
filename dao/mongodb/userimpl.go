@@ -5,6 +5,7 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
+// DAO methods
 type UserImplMongodb struct {
 }
 
